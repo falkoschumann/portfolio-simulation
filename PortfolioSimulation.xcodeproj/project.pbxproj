@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		CC816AB72483DFB600F09875 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC816AB62483DFB600F09875 /* main.swift */; };
+		CC816AC02483DFEA00F09875 /* PortfolioSimulationContract in Frameworks */ = {isa = PBXBuildFile; productRef = CC816ABF2483DFEA00F09875 /* PortfolioSimulationContract */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		CC816AB32483DFB600F09875 /* PortfolioSimulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PortfolioSimulation; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC816AB62483DFB600F09875 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		CC816ABD2483DFCC00F09875 /* PortfolioSimulationContract */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PortfolioSimulationContract; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC816AC02483DFEA00F09875 /* PortfolioSimulationContract in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +44,10 @@
 		CC816AAA2483DFB600F09875 = {
 			isa = PBXGroup;
 			children = (
+				CC816ABD2483DFCC00F09875 /* PortfolioSimulationContract */,
 				CC816AB52483DFB600F09875 /* PortfolioSimulation */,
 				CC816AB42483DFB600F09875 /* Products */,
+				CC816ABE2483DFEA00F09875 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +67,13 @@
 			path = PortfolioSimulation;
 			sourceTree = "<group>";
 		};
+		CC816ABE2483DFEA00F09875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +90,9 @@
 			dependencies = (
 			);
 			name = PortfolioSimulation;
+			packageProductDependencies = (
+				CC816ABF2483DFEA00F09875 /* PortfolioSimulationContract */,
+			);
 			productName = PortfolioSimulation;
 			productReference = CC816AB32483DFB600F09875 /* PortfolioSimulation */;
 			productType = "com.apple.product-type.tool";
@@ -284,6 +299,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC816ABF2483DFEA00F09875 /* PortfolioSimulationContract */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PortfolioSimulationContract;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CC816AAB2483DFB600F09875 /* Project object */;
 }
