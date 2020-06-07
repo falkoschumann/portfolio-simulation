@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		CC816AB72483DFB600F09875 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC816AB62483DFB600F09875 /* main.swift */; };
-		CC816AC02483DFEA00F09875 /* PortfolioSimulationContract in Frameworks */ = {isa = PBXBuildFile; productRef = CC816ABF2483DFEA00F09875 /* PortfolioSimulationContract */; };
+		CC932A762484085700EC32E2 /* PortfolioSimulationBackend in Frameworks */ = {isa = PBXBuildFile; productRef = CC932A752484085700EC32E2 /* PortfolioSimulationBackend */; };
+		CC932A782484085700EC32E2 /* PortfolioSimulationContract in Frameworks */ = {isa = PBXBuildFile; productRef = CC932A772484085700EC32E2 /* PortfolioSimulationContract */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +28,7 @@
 		CC816AB32483DFB600F09875 /* PortfolioSimulation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PortfolioSimulation; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC816AB62483DFB600F09875 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		CC816ABD2483DFCC00F09875 /* PortfolioSimulationContract */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PortfolioSimulationContract; sourceTree = "<group>"; };
+		CCF88E1C2483ECB3002F63AE /* PortfolioSimulationBackend */ = {isa = PBXFileReference; lastKnownFileType = folder; path = PortfolioSimulationBackend; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC816AC02483DFEA00F09875 /* PortfolioSimulationContract in Frameworks */,
+				CC932A782484085700EC32E2 /* PortfolioSimulationContract in Frameworks */,
+				CC932A762484085700EC32E2 /* PortfolioSimulationBackend in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +47,7 @@
 		CC816AAA2483DFB600F09875 = {
 			isa = PBXGroup;
 			children = (
+				CCF88E1C2483ECB3002F63AE /* PortfolioSimulationBackend */,
 				CC816ABD2483DFCC00F09875 /* PortfolioSimulationContract */,
 				CC816AB52483DFB600F09875 /* PortfolioSimulation */,
 				CC816AB42483DFB600F09875 /* Products */,
@@ -91,7 +95,8 @@
 			);
 			name = PortfolioSimulation;
 			packageProductDependencies = (
-				CC816ABF2483DFEA00F09875 /* PortfolioSimulationContract */,
+				CC932A752484085700EC32E2 /* PortfolioSimulationBackend */,
+				CC932A772484085700EC32E2 /* PortfolioSimulationContract */,
 			);
 			productName = PortfolioSimulation;
 			productReference = CC816AB32483DFB600F09875 /* PortfolioSimulation */;
@@ -301,7 +306,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		CC816ABF2483DFEA00F09875 /* PortfolioSimulationContract */ = {
+		CC932A752484085700EC32E2 /* PortfolioSimulationBackend */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PortfolioSimulationBackend;
+		};
+		CC932A772484085700EC32E2 /* PortfolioSimulationContract */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = PortfolioSimulationContract;
 		};

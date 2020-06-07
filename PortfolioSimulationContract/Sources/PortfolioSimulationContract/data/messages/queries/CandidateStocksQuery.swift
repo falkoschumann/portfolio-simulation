@@ -11,4 +11,8 @@ public struct CandidateStocksQueryResult {
     }
 
     public let candidates: [CandidateStock]
+
+    public init(candidates: [CandidateStock]) {
+        self.candidates = candidates
+    }
 }

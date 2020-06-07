@@ -9,5 +9,6 @@
 import Foundation
 
 import PortfolioSimulationContract
+import PortfolioSimulationBackend
 
 print(PortfolioSimulationContract().text)

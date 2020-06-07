@@ -5,9 +5,9 @@ public struct Success : CommandStatus {
 }
 
 public struct Failure : CommandStatus {
+    public let errorMessage: String
+
     public init(_ errorMessage: String) {
         self.errorMessage = errorMessage
     }
-
-    public let errorMessage: String
 }
